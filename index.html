@@ -15,6 +15,7 @@
       <input type="text" id="new-task-description" name="new-task-description" placeholder="enter task here">
       <label name="priority"> Priority:
         <select name="priority">
+          <option value=""></option>
           <option value="high">High</option>
           <option value="mid">Mid</option>
           <option value="low">Low</option>
@@ -25,6 +26,9 @@
     <div id="list">
       <h2>My Tasks:</h2>
       <ul id="tasks"></ul>
+      <ul id="high-priority">High Priority:</ul>
+      <ul id="mid-priority">Mid Priority:</ul>
+      <ul id="low-priority">Low Priority:</ul>
     </div>
     <script src="./src/index.js"></script>
   </div>
